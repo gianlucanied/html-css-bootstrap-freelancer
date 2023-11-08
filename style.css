@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    border: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -15,4 +15,41 @@ header {
 
 .img-jumbo {
     max-width: 100%;
+}
+
+.portfolio {
+    text-align: center;
+    padding: 50px;
+}
+
+.col img {
+    width: 100%;
+}
+
+.about {
+    background-color: green;
+    text-align: center;
+    padding-top: 50px;
+}
+
+button {
+    margin: 20px 0 40px 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    width: 60%;
+    margin: 0 20%;
+    padding-bottom: 80px;
+}
+
+.contact-me button {
+    margin: 0 20%;
+}
+
+footer {
+    background-color: blueviolet;
 }
