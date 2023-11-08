@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: blue;
+    height: 10vh;
+    padding-top: 15px;
+}
+
+.jumbotron {
+    background-color: green;
+    height: 50vh;
+    text-align: center;
+}
+
+.img-jumbo {
+    max-width: 100%;
+}
