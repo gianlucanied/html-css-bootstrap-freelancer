@@ -6,13 +6,10 @@
 
 header {
     background-color: blue;
-    height: 10vh;
-    padding-top: 15px;
 }
 
 .jumbotron {
     background-color: green;
-    height: 50vh;
     text-align: center;
 }
 
