@@ -49,15 +49,19 @@
 }
 
 #section-about {
-    margin: 50px 200px;
+    margin: 50px 50px;
 }
 
 .about {
     background-color: rgba(26,188,156,255);
     text-align: left;
-    padding: 50px 0;
+    padding: 50px 0 50px 0;
     color: white;
+}
 
+#ms_text-area {
+    width: 60%;
+    margin: 0 20% 1% 20%;
 }
 
 button {
@@ -78,10 +82,32 @@ ul {
     margin: 20px;
 }
 
+.contact-me {
+    padding-top: 50px;
+}
+
 .contact-me button {
     margin: 0 20%;
 }
 
 footer {
     background-color: rgba(58,84,109,255);
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+footer div{
+    color: white;
+    text-align: center;
+}
+
+.icon-social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-social p {
+    border: 1px white solid;
+    border-radius: 50%;
+    padding: 5%;
 }
