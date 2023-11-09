@@ -4,36 +4,65 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: blue;
-}
-
 .jumbotron {
-    background-color: green;
+    background-color: rgba(26,188,156,255);
     text-align: center;
+    color: white;
+    padding: 50px 0;
 }
 
 .img-jumbo {
-    max-width: 100%;
+    max-width: 15%;
+    margin-left: 43%;
 }
 
 .portfolio {
     text-align: center;
-    padding: 50px;
+    margin: 50px;
 }
 
 .col img {
     width: 100%;
 }
 
+#ms-nav-header {
+    padding-left: 10%;
+    background-color: rgba(44,62,80,255);
+}
+
+#ms-nav-header a {
+    color: white;
+}
+
+#nav_header {
+    margin: 0 0 0 60%;
+}
+
+#ms_download-button {
+    margin: 0 47% 0px 47%;
+    border: 1px solid white;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 50px;
+    color: white;
+    border-radius: 5px;
+}
+
+#section-about {
+    margin: 50px 200px;
+}
+
 .about {
-    background-color: green;
-    text-align: center;
-    padding-top: 50px;
+    background-color: rgba(26,188,156,255);
+    text-align: left;
+    padding: 50px 0;
+    color: white;
+
 }
 
 button {
     margin: 20px 0 40px 0;
+
 }
 
 h1 {
@@ -43,7 +72,10 @@ h1 {
 ul {
     width: 60%;
     margin: 0 20%;
-    padding-bottom: 80px;
+}
+
+#section-portfolio {
+    margin: 20px;
 }
 
 .contact-me button {
@@ -51,5 +83,5 @@ ul {
 }
 
 footer {
-    background-color: blueviolet;
+    background-color: rgba(58,84,109,255);
 }

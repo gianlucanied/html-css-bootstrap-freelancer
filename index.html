@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,76 +15,68 @@
   </head>
   <body>
     <header>
-      <div class="row justify-content-around">
-        <div class="col-4">START BOOTSTRAP</div>
-        <div class="col-4">
-            <div class="container">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Active</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                  </ul>
+      <nav id="ms-nav-header" class="ms_nav-bar navbar navbar-expand-lg navbar-light bg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><strong>START BOOTSTRAP</strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span id="ms_ navbar" class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul id="nav_header" class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </nav>
+
     </header>
 
     <main>
       <section class="jumbotron">
         <div class="img-jumbo">        
-            <img src="" class="rounded mx-auto d-block" alt="...">
+            <img src="avatar.svg" class="rounded mx-auto d-block" alt="...">
         </div>
         <h1>START BOOTSTRAP</h1>
-        <p class="text-center">icone</p>
+        <p class="text-center"><i class="fa-solid fa-star fa-xl" style="color: #ffffff;"></i></p>
         <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
       </section>
 
       <section class="portfolio">
         <h1>PORTFOLIO</h1>
-        <p class="text-center">icone</p>
-        <div class="container">
-            <div class="row">
-              <div class="col">
-                <img src="" alt="">
-              </div>
-              <div class="col">
-                <img src="" alt="">
-              </div>
-              <div class="col">
-                <img src="" alt="">
-              </div>
-            </div>
-          </div>
+        <p class="text-center"><i class="fa-solid fa-star fa-xl" style="color: #000000;"></i></p>
 
           <div class="container">
-            <div class="row">
-              <div class="col">
+            <div id="section-portfolio" class="row">
+              <div class="col-sm-12 col-md-6 col-lg-4">
                 <img src="cabin.png" alt="" class="img-fluid">
               </div>
-              <div class="col">
+              <div class="col-sm-12 col-md-6 col-lg-4">
                 <img src="cake.png" alt="" class="img-fluid">
               </div>
-              <div class="col">
+              <div class="col-sm-12 col-md-6 col-lg-4">
                 <img src="circus.png" alt="" class="img-fluid">
               </div>
             </div>
           </div>
 
           <div class="container">
-            <div class="row">
-              <div class="col">
-                <img src="game.png" alt="">
+            <div id="section-portfolio" class="row">
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="game.png" alt="" class="img-fluid">
               </div>
-              <div class="col">
-                <img src="safe.png" alt="">
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="safe.png" alt="" class="img-fluid">
               </div>
-              <div class="col">
-                <img src="submarine.png" alt="">
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="submarine.png" alt="" class="img-fluid">
               </div>
             </div>
           </div>
@@ -91,21 +84,21 @@
 
       <section class="about">
         <h1>ABOUT</h1>
-        <p class="text-center">icone</p>
-        <div class="row justify-content-center">
-            <div class="col-4">
+        <p class="text-center"><i class="fa-solid fa-star fa-xl" style="color: #ffffff;"></i></p>
+        <div id="section-about" class="row justify-content-center">
+            <div class="col-sm-12 col-md-6">
               Freelancer ia a free bootstrap theme created by Start Bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy costumization
             </div>
-            <div class="col-4">
+            <div class="col-sm-12 col-md-6">
               Whetever yoou're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
             </div>
           </div>
-          <button type="button" class="btn btn-primary btn-sm">Download</button>
+          <a id="ms_download-button" href="button"> <i class="fa-solid fa-download" style="color: #ffffff;"></i> Download</a>
       </section>
 
       <section class="contact-me">
         <h1>CONTACT ME</h1>
-        <p class="text-center">icone</p>
+        <p class="text-center"><i class="fa-solid fa-star fa-xl" style="color: #000000;"></i></p>
         <ul class="list-group list-group-flush">
             <li class="list-group-item">Name</li>
             <li class="list-group-item">Email Address</li>
